@@ -4,19 +4,23 @@ Shopit2me's production app can be found at shopit2me.herokuapp.com.
 
 Developer Setup:
 * Bundle gems
-  $bundle
+
+   $bundle
 
 * Initialize the database
-  $rake db:create
-  $rake db:migrate
+
+    $rake db:create
+    $rake db:migrate
 
 * Create .env file to store API information
-  $touch .env.development
+
+    $touch .env.development
     AWS_ACCESS_KEY_ID=Amazon-API-key
     AWS_SECRET_ACCESS_KEY=Amazon-API-secret
     ASSOCIATE_TAG=Amazon-associate-tag
 
 * Seed database     
-  $rake db:seed
+
+    $rake db:seed
 
 
